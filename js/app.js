@@ -211,7 +211,7 @@ function clickedCell(cell) {
 
 /* Restart the game*/
 function restartBnt(button) {
-    if (button.value == "Start") {
+    if (button.value == "AI Starts") {
         aiTurn();
         button.disabled = true;
     }
