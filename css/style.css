@@ -11,8 +11,8 @@ header {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	display: block;
-	margin-top: 0px;
-	margin-bottom: 5%;
+	/* margin-top: 0px;
+	margin-bottom: 5%; */
 	box-sizing: border-box;
 	position: relative;
 	width: 100%;
