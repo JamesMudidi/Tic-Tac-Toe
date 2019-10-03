@@ -227,7 +227,7 @@ function restartBnt(button) {
                 htmlBoard.innerHTML = "";
             }
         }
-        button.value = "Start AI";
+        button.value = "AI Starts";
         msg = document.getElementById("message");
         msg.innerHTML = "";
     }
