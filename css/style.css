@@ -102,7 +102,7 @@ a:visited {
 }
 
 #bnt-restart:active {
-	background: #0787B3;
+	background: rgb(110, 110, 110);
 }
 
 #bnt-restart:disabled {
