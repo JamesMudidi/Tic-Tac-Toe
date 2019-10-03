@@ -153,7 +153,7 @@ function setMove(i, j, player) {
     }
 }
 
-/* main */
+/* main game functionality*/
 function clickedCell(cell) {
     var button = document.getElementById("bnt-restart");
     button.disabled = true;
@@ -211,7 +211,7 @@ function clickedCell(cell) {
 
 /* Restart the game*/
 function restartBnt(button) {
-    if (button.value == "Start AI") {
+    if (button.value == "AI Starts") {
         aiTurn();
         button.disabled = true;
     }
@@ -227,7 +227,7 @@ function restartBnt(button) {
                 htmlBoard.innerHTML = "";
             }
         }
-        button.value = "Start AI";
+        button.value = "AI Starts";
         msg = document.getElementById("message");
         msg.innerHTML = "";
     }
