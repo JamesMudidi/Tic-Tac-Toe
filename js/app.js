@@ -193,15 +193,15 @@ function clickedCell(cell) {
 
         for (var i = 0; i < lines.length; i++) {
             cell = document.getElementById(String(lines[i][0]) + String(lines[i][1]));
-            cell.style.color = "red";
+            cell.style.color = "green";
         }
 
         msg = document.getElementById("message");
-        msg.innerHTML = "You lose!";
+        msg.innerHTML = "You just lost, Keep practicing and try me again.";
     }
     if (emptyCells(board).length == 0 && !gameOverAll(board)) {
         var msg = document.getElementById("message");
-        msg.innerHTML = "Draw!";
+        msg.innerHTML = "We just tied, I think we should play gain";
     }
     if (gameOverAll(board) == true || emptyCells(board).length == 0) {
         button.value = "Restart";
