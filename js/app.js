@@ -153,7 +153,7 @@ function setMove(i, j, player) {
     }
 }
 
-/* main */
+/* main game functionality*/
 function clickedCell(cell) {
     var button = document.getElementById("bnt-restart");
     button.disabled = true;
@@ -211,7 +211,7 @@ function clickedCell(cell) {
 
 /* Restart the game*/
 function restartBnt(button) {
-    if (button.value == "Start AI") {
+    if (button.value == "Start") {
         aiTurn();
         button.disabled = true;
     }
