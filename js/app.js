@@ -46,7 +46,7 @@ function clickedCell(cell) {
     }
     if (emptyCells(board).length == 0 && !gameOverAll(board)) {
         var msg = document.getElementById("message");
-        msg.innerHTML = "We just tied, I think we should play again";
+        msg.innerHTML = "Hmm! We just tied, I think we should play again";
     }
     if (gameOverAll(board) == true || emptyCells(board).length == 0) {
         button.value = "Restart";
