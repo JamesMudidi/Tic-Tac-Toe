@@ -22,7 +22,6 @@ header {
 p {
 	font-size: 14pt;
 	font-weight: bold;
-	font-family: Sans;
 	text-align: center;
 	position: relative;
 	text-align: center;
@@ -47,7 +46,6 @@ a:visited {
 	margin-right: auto;
 	padding: 5px;
 	font-size: 4em;
-	font-family: Sans;
 	color: #000;
 	background: #F7F7F7;
 	width: 310px;
